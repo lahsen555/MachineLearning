@@ -35,11 +35,11 @@ gredient descent, lets make it easy, the cost function uses the gredient descent
 between the predictd points and actual points, yeah i know it's complicated but the only way to really get it is to see it 
 in action (or to see the math equations).
 
-In general the cost function solves a minimization problem of \((y' - y)^2\), and we can do that by adjusting the a and b
+In general the cost function solves a minimization problem of $\((y' - y)^2\)$, and we can do that by adjusting the a and b
 and we can adject them using the gredient descent algorithm.
 
 First of all before moving to the gredient descent stuff, let us explore further this cost function and see what we can get out
-of it, first let us see the formula of a cost function, so that we can plot it, \[ J(a, b) = \frac{1}{2m} \sum_{i=1}^{m} (ax^{(i)} + b - y^{(i)})^2 \]
+of it, first let us see the formula of a cost function, so that we can plot it, $$\[ J(a, b) = \frac{1}{2m} \sum_{i=1}^{m} (ax^{(i)} + b - y^{(i)})^2 \]$$
 it looks scary, but i promiss this is the simplest formula you will ever see in machine learning world, am not saying that its easy, but what 
 am saying is that there is a much more complex stuff in this world.
 
